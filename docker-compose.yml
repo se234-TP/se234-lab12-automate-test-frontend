@@ -1,0 +1,10 @@
+version: '3.3'
+services: 
+  backend:
+    image: dto80/se234-lab12:latest
+    ports:
+      - "8085:8080"
+  frontend:
+    image: techatham/lab10-2
+    ports:
+      - "8901:80"
